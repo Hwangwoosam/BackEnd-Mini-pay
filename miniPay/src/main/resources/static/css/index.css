@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.account-block {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.account-block h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.main-account {
+    border-left: 5px solid #4CAF50;
+}
+
+.savings-account {
+    border-left: 5px solid #2196F3;
+}
+
+.balance {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.daily-limit {
+    font-size: 14px;
+    color: #777;
+}
+
+.account-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.account-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-number {
+    font-size: 14px;
+    color: #777;
+}
+
+.add-account-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.add-account-btn:hover {
+    background-color: #1976D2;
+}

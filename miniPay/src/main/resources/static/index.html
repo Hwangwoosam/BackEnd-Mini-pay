@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계좌 시스템 메인 페이지</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>내 계좌 현황</h1>
+
+    <div class="account-block main-account">
+        <h2>메인 계좌</h2>
+        <p class="daily-limit">일일 한도: 1,000,000원</p>
+        <p class="balance">현재 잔액: 5,000,000원</p>
+    </div>
+
+    <div class="account-block savings-account">
+        <h2>적금 계좌</h2>
+        <ul class="account-list" id="savingsAccountList">
+            <li>
+                <span>일반 적금 계좌</span>
+                <span class="account-number">123-456-789</span>
+            </li>
+            <li>
+                <span>주택청약 적금</span>
+                <span class="account-number">987-654-321</span>
+            </li>
+            <li>
+                <span>자유적금 계좌</span>
+                <span class="account-number">456-789-123</span>
+            </li>
+        </ul>
+        <button class="add-account-btn" onclick="addSavingsAccount()">새 적금 계좌 추가</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
