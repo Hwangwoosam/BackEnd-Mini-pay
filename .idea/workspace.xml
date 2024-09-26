@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1537f1f3-1b05-46c1-9956-3ddb7c54b371" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miniPay/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/src/main/java/com/example/miniPay/Configuration/JasyptConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/src/main/java/com/example/miniPay/Configuration/JasyptConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/src/main/java/com/example/miniPay/MiniPayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/src/main/java/com/example/miniPay/MiniPayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miniPay/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/src/main/resources/logging/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/src/main/resources/logging/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/src/test/java/com/example/miniPay/MiniPayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/src/test/java/com/example/miniPay/MiniPayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniPay/src/test/java/com/example/miniPay/jasyptEncryptorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/miniPay/src/test/java/com/example/miniPay/jasyptEncryptorTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +44,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,18 +62,62 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2fP6Aw3SXM1biwjSNQpynV6bcyv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.jasyptEncryptorTests.stringEncrytor.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sam17/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc/LocalState/rootfs/home/user/git/BackEnd-Mini-pay",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "애플리케이션.MiniPayApplication.executor": "Run"
   }
 }]]></component>
+  <component name="RunManager" selected="애플리케이션.MiniPayApplication">
+    <configuration name="MiniPayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.miniPay.MiniPayApplication" />
+      <module name="miniPay.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.miniPay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jasyptEncryptorTests.stringEncrytor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="miniPay.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.miniPay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.miniPay" />
+      <option name="MAIN_CLASS_NAME" value="com.example.miniPay.jasyptEncryptorTests" />
+      <option name="METHOD_NAME" value="stringEncrytor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.MiniPayApplication" />
+        <item itemvalue="JUnit.jasyptEncryptorTests.stringEncrytor" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
